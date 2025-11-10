@@ -210,7 +210,7 @@ Flexbox 내에서 아이템의 크기와 비율을 설정하는 속성*/
 
 .flex-test3 {
   flex: 1 50%;
-  /* flex-grow: 1; glex-shrink: 1; flex-basis: 50%;
+  /* flex-grow: 1; flex-shrink: 1; flex-basis: 50%;
   -> 가용공간을 1비율로 차지,
   컨테이너 크기가 줄어드면 1 비율로 축소,
   기본 점유율이 50%
