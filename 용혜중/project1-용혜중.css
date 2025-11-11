@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-display: swap;
+}
+
+* {
+  font-family: 'Pretendard';
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header > h1 {
+  color: black;
+}
+
+nav {
+  background-color: black;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+nav > ul {
+  height: 30px;
+  width: 1100px;
+  margin: 0px;
+  padding: 5px 0px;
+  list-style: none;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  width: 1100px;
+  padding: 5px 20px;
+  margin-bottom: 1px;
+}
+
+#information {
+  display: flex;
+}
+
+#information > div:first-child {
+  flex-basis: 70%;
+}
+
+#information > div:last-child {
+  flex-basis: 30%;
+}
+
+#information img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#aboutMe, #projects {
+  background-color:lightgray;
+}
+
+#edu-skills, #contactMe {
+  background-color: grey;
+}
+
+#contactMe button {
+  background-color: darkgray;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+#contactMe input {
+  color: black;
+  font-size: 24px;
+}
+
+#contactMe input:focus {
+  border-style: none;
+}
