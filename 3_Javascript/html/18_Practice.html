@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>글상자 만들기</title>
+</head>
+<body>
+
+    <div id="container">
+        <div>
+            너비 : 
+            <input type="number" id="width"><br>
+            높이 :
+            <input type="number" id="height"><br>
+            내용 : 
+            <input type="text" id="contents"><br>
+            글자색 :
+            <input type="text" id="font-color"><br>
+            수평정렬 :<br>
+            좌 <input type="radio" name="h-align" value="flex-start">
+            가운데 <input type="radio" name="h-align" value="center">
+            우 <input type="radio" name="h-align" value="flex-end">
+            <br>
+            수직정렬 :<br>
+            위 <input type="radio" name="v-align" value="flex-start">
+            가운데 <input type="radio" name="v-align" value="center">
+            아래 <input type="radio" name="v-align" value="flex-end">
+        </div>
+
+        <button id="apply-button">적용</button>
+    </div>
+    
+<script src="/3_Javascript/js/18_Practice.js"></script>
+</body>
+</html>
